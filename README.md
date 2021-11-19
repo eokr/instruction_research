@@ -33,3 +33,12 @@ h) help;;
 esac
 done
 ```
+
+
+2. **getopts**
+
+getopts (option_string) (varname)
+
+option_string = 옵션을 정의하는 문자, 뒤에 콜론(:)이 있으면 옵션값을 받는 다는 의미(d:u:f:h )
+
+varname = 옵션 명(d,u,f)을 받을 변수
